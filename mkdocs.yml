@@ -13,7 +13,7 @@ nav:
     - Blog:
         - blog/index.md
     - Knowledge base:
-        - knowledge/blog setup.md
+        - knowledge/blog_setup.md
     - About: about.md   
 plugins:
     - blog

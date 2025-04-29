@@ -2,6 +2,8 @@
 created: 2025-04-29
 updated: 2025-04-29
 ---
+# Blog setup
+
 A couple of notes on how I setup the infrastructure around the page you are looking at.
 
 # GitHub
