@@ -5,5 +5,15 @@ theme:
         scheme: slate
         primary: light green
         accent: teal
+    features:
+        - navaigation.indexes
+        - navigation.footer
+nav:
+    - Home: index.md
+    - Blog:
+        - blog/index.md
+    - Knowledge base:
+        - knowledge/blog setup.md
+    - About: about.md   
 plugins:
     - blog
