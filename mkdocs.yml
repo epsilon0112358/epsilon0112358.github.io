@@ -1,5 +1,9 @@
 site_name: epsilon0112358
 theme:
     name: material
+    palette:
+        scheme: slate
+        primary: light green
+        accent: teal
 plugins:
     - blog
