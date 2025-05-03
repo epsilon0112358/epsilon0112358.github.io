@@ -1,5 +1,5 @@
 ---
-created: 2025-04-29
+date: 2025-04-29
 ---
 # Blog setup
 

@@ -1,3 +1,6 @@
+---
+date: 2025-04-29
+---
 # Welcome to epsilon's blog
 
 Here I'm carving out my own little corner of the internet!
