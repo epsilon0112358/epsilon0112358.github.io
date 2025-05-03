@@ -479,7 +479,7 @@
     <h2 id="the-devil-is-in-the-detail"><a class="toclink" href="2025/05/02/the-devil-is-in-the-detail/">The devil is in the detail</a></h2>
 <p>Sometimes a tiny typo can cause quite some headache...
 (IP addresses redacted, and the different paths are due to the respective word list locations)</p>
-<p>Doing some username enumeration based on the returned error messages from a web application on Hack The Box, trying to get a sense of just how much slower web based fuzzing is, limited by my own connection speed, ISP, VPN etc
+<p>Doing some username enumeration based on the returned error messages from a web application on the <a href="https://academy.hackthebox.com/">Hack The Box Academy</a>, trying to get a sense of just how much slower web based fuzzing is, limited by my own connection speed, ISP, VPN etc
 First command runs fine on PwnBox, returning the desired result, second command goes wild on Kali, flooding my terminal with useless usernames.
 Took me longer to see than I care to admit ;-)</p>
 <pre><code class="language-shell">ffuf -w /opt/useful/seclists/Usernames/xato-net-10-million-usernames.txt -u http://xx.xxx.xxx.115:46277/index.php -X POST -H &quot;Content-Type: application/x-www-form-urlencoded&quot; -d &quot;username=FUZZ&amp;password=invalid&quot; -fr &quot;Unknown user.&quot;
@@ -488,6 +488,7 @@ Took me longer to see than I care to admit ;-)</p>
 </code></pre>
 <p>Ultimately, the speed was less of an issue than I thought (at least today), Kali finishes ~11000 usernames in 60 seconds (out of over 8 Million), PwnBox ~21000.</p>
 <p>Will run some more tests, I suspect the biggest weakness in my current setup to be my GPU. hashcat will be fun...</p>
+<p>~epsilon</p>
     
   </div>
 </article>

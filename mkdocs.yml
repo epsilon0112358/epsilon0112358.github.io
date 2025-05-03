@@ -17,3 +17,5 @@ nav:
     - About: about.md   
 plugins:
     - blog
+    - git-revision-date-localized:
+        type: date

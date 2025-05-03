@@ -1,6 +1,5 @@
 ---
 created: 2025-04-29
-updated: 2025-04-29
 ---
 # Blog setup
 
@@ -20,8 +19,10 @@ There are other beautiful themes out there, however they do not integrate with t
 By Default, MkDocs renders the markdown files into a subdirectory /sites.
 If you don't care for the original files and just want the GitHub pages to show the HTML part, you could make this subdirectory the repository.
 I opted to keep the entire root directory including markdown and all in one repository, and host the GitHub pages *from that subdirectory*, [like so](https://stackoverflow.com/a/75662195).
-# Obsidian
-An all time favorite for note taking with markdown.
-I simply made the main directory of my repository's local copy a vault, and edit the content from there!
 
-https://obsidian.md/
+Adding the "last updated" note on the bottom of each page here took some digging as well. I used [this feature](https://henrywhitaker3.github.io/mkdocs-material-dark-theme/plugins/revision-date/) for that.
+
+# Obsidian
+[Obsidian](https://obsidian.md/) is an all time favorite for note taking with markdown.
+I simply made the main directory of my repository's local copy a vault, and edit the content from there!
+I've always used plugins sparingly, trying to get as much out of the native functionality as possible. I do however recommend the [DataView](https://github.com/blacksmithgu/obsidian-dataview) community plugin for various query needs!

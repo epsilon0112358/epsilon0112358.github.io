@@ -508,7 +508,7 @@
 <h1 id="the-devil-is-in-the-detail">The devil is in the detail</h1>
 <p>Sometimes a tiny typo can cause quite some headache...
 (IP addresses redacted, and the different paths are due to the respective word list locations)</p>
-<p>Doing some username enumeration based on the returned error messages from a web application on Hack The Box, trying to get a sense of just how much slower web based fuzzing is, limited by my own connection speed, ISP, VPN etc
+<p>Doing some username enumeration based on the returned error messages from a web application on the <a href="https://academy.hackthebox.com/">Hack The Box Academy</a>, trying to get a sense of just how much slower web based fuzzing is, limited by my own connection speed, ISP, VPN etc
 First command runs fine on PwnBox, returning the desired result, second command goes wild on Kali, flooding my terminal with useless usernames.
 Took me longer to see than I care to admit ;-)</p>
 <pre><code class="language-shell">ffuf -w /opt/useful/seclists/Usernames/xato-net-10-million-usernames.txt -u http://xx.xxx.xxx.115:46277/index.php -X POST -H &quot;Content-Type: application/x-www-form-urlencoded&quot; -d &quot;username=FUZZ&amp;password=invalid&quot; -fr &quot;Unknown user.&quot;
@@ -517,6 +517,7 @@ Took me longer to see than I care to admit ;-)</p>
 </code></pre>
 <p>Ultimately, the speed was less of an issue than I thought (at least today), Kali finishes ~11000 usernames in 60 seconds (out of over 8 Million), PwnBox ~21000.</p>
 <p>Will run some more tests, I suspect the biggest weakness in my current setup to be my GPU. hashcat will be fun...</p>
+<p>~epsilon</p>
 
 
 
@@ -525,8 +526,26 @@ Took me longer to see than I care to admit ;-)</p>
 
 
   
+    
+  
   
 
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 3, 2025 03:34:45">May 3, 2025</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
 
 
 
