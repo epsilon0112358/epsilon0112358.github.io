@@ -484,7 +484,7 @@ First command runs fine on PwnBox, returning the desired result, second command 
 Took me longer to see than I care to admit ;-)</p>
 <pre><code class="language-shell">ffuf -w /opt/useful/seclists/Usernames/xato-net-10-million-usernames.txt -u http://xx.xxx.xxx.115:46277/index.php -X POST -H &quot;Content-Type: application/x-www-form-urlencoded&quot; -d &quot;username=FUZZ&amp;password=invalid&quot; -fr &quot;Unknown user.&quot;
 </code></pre>
-<pre><code class="language-shell">ffuf -w /usr/share/seclists/Usernames/xato-net-10-million-usernames.txt -u http://xx.xxx.xxx.115:46277/index.php -X POST -H &quot;Content-Type: application/x-www-forum-urlencoded&quot; -d &quot;username=FUZZ&amp;password=invalid&quot; -fr &quot;Unknown user&quot;
+<pre><code class="language-shell">ffuf -w /usr/share/seclists/Usernames/xato-net-10-million-usernames.txt -u http://xx.xxx.xxx.115:46277/index.php -X POST -H &quot;Content-Type: application/x-www-forum-urlencoded&quot; -d &quot;username=FUZZ&amp;password=invalid&quot; -fr &quot;Unknown user.&quot;
 </code></pre>
 <p>Ultimately, the speed was less of an issue than I thought (at least today), Kali finishes ~11000 usernames in 60 seconds (out of over 8 Million), PwnBox ~21000.</p>
 <p>Will run some more tests, I suspect the biggest weakness in my current setup to be my GPU. hashcat will be fun...</p>
