@@ -14,6 +14,7 @@ nav:
         - blog/index.md
     - Knowledge base:
         - knowledge/blog_setup.md
+        - knowledge/MVPs.md
     - About: about.md   
 plugins:
     - blog
