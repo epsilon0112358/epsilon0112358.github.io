@@ -14,8 +14,8 @@ They also have an [app](https://app.hackthebox.com/login?redirect=%2Fhome) platf
 
 Be mindful that the app part and the Academy part are separate subscriptions, if you choose to invest into their platform.
 ### [Over The Wire](https://overthewire.org/wargames/)
-A gamified approach to learn basic Linux and security concepts, which they call Wargames. They have content for absolute beginner You ssh into each shell game level looking for information how to access the next level.
-It teaches you how to research, and absolutely expects you to get stuck here and there, so you have to do some research on how certain mechanics work - an indispensable skill to have in Cybersecurity!
+A gamified approach to learn basic Linux and security concepts, which they call Wargames. They have content for absolute beginners and progress into higher difficulties. You ssh into each shell game level looking for information how to access the next level.
+It teaches you how to research unfamiliar tools, and absolutely expects you to get stuck here and there, so you have to do some reading on how certain mechanics work - an indispensable skill to have in Cybersecurity!
 ### [Pwn College](https://pwn.college/)
 Another gamified platform to learn the basics of Linux and InfoSec.
 Their content, developed around Arizona State University's Cybersecurity curriculum, is very approachable with no prior knowledge, but at the same time goes very in depth with important skills and commands. 
@@ -27,16 +27,16 @@ Targeting, as the name suggests, users of the Kali Linux distribution, it is ful
 ### [Hack The Box Discord](https://discord.gg/hackthebox)
 Setup for users of the Hack The Box platform, it's a very active and friendly community. Good for any Hack The Box questions, InfoSec, and chit chat.
 
-The currently do a weekly-ish stream on Discord called "Cube Talks", where a panel of volunteers from the Hack The Box team comes together and answers questions from the chat. It gives a great insight into the operations of HTB and it's people, and they are always happy to give tips to aspiring cybersecurity professionals
+The currently do a weekly-ish stream on Discord called "Cube Talks", where a panel of volunteers from the Hack The Box team comes together and answers questions from the chat. It gives a great insight into the operations of HTB and it's people, and they are always happy to give tips to aspiring cybersecurity professionals.
 ## Tools
 ### [Obsidian](https://obsidian.md/)
-When it comes to note taking, this arguably one of the most popular tools out there right now. It basically converts a directory on your computer into a vault, and using any scheme or convention you like you can organize (markdown formatted) notes for everyday tasks, studying, or penetration testing.
+When it comes to note taking, this is arguably one of the most popular tools out there right now. It basically converts a directory on your computer into a vault, and using any scheme or convention you like you can organize (markdown formatted) notes for everyday tasks, studying, or penetration testing.
 
 It's main selling point is how easy it is to link notes together that are related one way or another. This helps make connections while keeping each note manageble and on topic.
 
 It has a bit of a learning curve to really appreciate its beauty, but it is worth the investment to get to know it!
 ### [Cherry Tree](https://www.giuspen.net/cherrytree/)
-Yet another note taking app, geared towards simplicity and mobility. I like to use it "on the go", running it straight from a flash drive where I cannot or don't want to install software, and it lets you organize notes in a hierarchical tree structure
+Yet another note taking app, geared towards simplicity and mobility. I like to use it "on the go", running it straight from a flash drive where I cannot or don't want to install software, and it lets you organize notes in a hierarchical tree structure.
 ### [Flameshot](https://flameshot.org/)
 This has become an indispensable tool for taking screenshots for me! It also comes with a "live" version for a flash drive, and it provides so much more functionality for screenshots than the common native apps.
 Great for annotations, highlighting, editing, picture in picture applications, delayed screenshots and much, much more!
