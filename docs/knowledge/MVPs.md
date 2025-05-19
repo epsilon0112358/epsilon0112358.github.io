@@ -21,13 +21,10 @@ Another gamified platform to learn the basics of Linux and InfoSec.
 Their content, developed around Arizona State University's Cybersecurity curriculum, is very approachable with no prior knowledge, but at the same time goes very in depth with important skills and commands. 
 
 And after signup, the entire content is free!
-## Communities
-### [Kali Linux & Friends Discord](https://discord.gg/KRYqWa3u4P)
-Targeting, as the name suggests, users of the Kali Linux distribution, it is full of knowledgeable and helpful volunteers helping with questions and issues around Kali and InfoSec.
-### [Hack The Box Discord](https://discord.gg/hackthebox)
-Setup for users of the Hack The Box platform, it's a very active and friendly community. Good for any Hack The Box questions, InfoSec, and chit chat.
 
-The currently do a weekly-ish stream on Discord called "Cube Talks", where a panel of volunteers from the Hack The Box team comes together and answers questions from the chat. It gives a great insight into the operations of HTB and it's people, and they are always happy to give tips to aspiring cybersecurity professionals.
+### [PortSwigger Web Security Academy](https://portswigger.net/web-security)
+PortSwigger is the company behind the de facto standard of the web application security testing tool Burp Suite. Their academy both explains the theory around various attack types, and demonstrates their execution with Burp. Arguably an indispensable skill to have as a penetration tester or bug bounty hunter with any exposure to web applications.
+
 ## Tools
 ### [Obsidian](https://obsidian.md/)
 When it comes to note taking, this is arguably one of the most popular tools out there right now. It basically converts a directory on your computer into a vault, and using any scheme or convention you like you can organize (markdown formatted) notes for everyday tasks, studying, or penetration testing.
