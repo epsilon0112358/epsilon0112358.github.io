@@ -8,8 +8,8 @@ theme:
     features:
         - navaigation.indexes
         - navigation.footer
-    logo: assets/images/epsilon.jpg
-    favicon: assets/images/epsilon.jpg
+    logo: assets/images/epsilon.jpeg
+    favicon: assets/images/epsilon.jpeg
 nav:
     - Home: index.md
     - Blog:
