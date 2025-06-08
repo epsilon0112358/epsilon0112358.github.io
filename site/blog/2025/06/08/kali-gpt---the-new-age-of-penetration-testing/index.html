@@ -9,10 +9,8 @@
       
       
       
-        <link rel="prev" href="../../05/mvps/">
+        <link rel="prev" href="../../../05/19/infosec-cheat-sheets-from-sans/">
       
-      
-        <link rel="next" href="../../../06/08/kali-gpt---the-new-age-of-penetration-testing/">
       
       
       <link rel="icon" href="../../../../../assets/images/epsilon.jpeg">
@@ -20,7 +18,7 @@
     
     
       
-        <title>InfoSec Cheat Sheets from SANS - epsilon0112358</title>
+        <title>Kali GPT - The new age of penetration testing? - epsilon0112358</title>
       
     
     
@@ -70,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#infosec-cheat-sheets-from-sans" class="md-skip">
+        <a href="#kali-gpt-the-new-age-of-penetration-testing" class="md-skip">
           Skip to content
         </a>
       
@@ -105,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              InfoSec Cheat Sheets from SANS
+              Kali GPT - The new age of penetration testing?
             
           </span>
         </div>
@@ -492,7 +490,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2025-05-19 00:00:00+00:00" class="md-ellipsis">May 19, 2025</time>
+                        <time datetime="2025-06-08 00:00:00+00:00" class="md-ellipsis">June 8, 2025</time>
                       </div>
                     </li>
                     
@@ -504,7 +502,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              1 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -528,13 +526,19 @@
 
 
 
-<h1 id="infosec-cheat-sheets-from-sans">InfoSec Cheat Sheets from SANS</h1>
-<p>I stumbled over a great resource today that seems too good not to share. I do enjoy condensed cheat sheets with common commands, flags, and other useful information on certain topics.
-The SANS Institute (InfoSec and Cybersecurity training and certificates) has a whole bunch of them free to download!</p>
-<p>For example <a href="https://sansorg.egnyte.com/dl/Rop1b0ElWo">this one</a> on netcat, or <a href="https://sansorg.egnyte.com/dl/f4TCYNMgN6">this one</a> for Google Hacking.</p>
-<p>Will certainly keep some of those handy!</p>
-<p>Check them all out <a href="https://www.sans.org/posters/">here</a></p>
-<p>Other than that, I am currently working my way through <a href="https://pwn.college/">Pwn.College</a> and PortSwigger's <a href="https://portswigger.net/web-security">Web Security Academy</a>. Both are highly recommended educational platforms to get some hands-on experience with the Linux command line and Burp Suite respectively.</p>
+<h1 id="kali-gpt-the-new-age-of-penetration-testing">Kali GPT - The new age of penetration testing?</h1>
+<p><a href="https://cybersecuritynews.com/kali-gpt/">This article</a> on the "Kali GPT- AI Assistant That Transforms Penetration Testing on Kali Linux" has been making the rounds on my feed, and I have spent quite some time pondering it and its implications.</p>
+<p>My first thought was along the lines of "how good can it possibly be?". Since it has become the de facto default for many major search engines to lead with an AI generated answer to any question entered, I've witnessed more than just a few blunders when it comes to tool syntax specifically. I've looked up the syntax how to use two password files with hashcat for example, a very basic query, and the AI answer messed up some pretty basic flags, missing a value that let the command fail immediately. The <a href="https://hashcat.net/wiki/doku.php?id=combinator_attack">official documentation</a> was the way to go (as usual, and as it always should be).
+On another occasion, I've set up a test repository on GitHub to play around with, and asked ChatGPT to provide me with some commands to restructure the branches a bit, and the repository was bricked within minutes.</p>
+<p>So my faith in these tools to provide syntactically correct and useful commands is limited.
+I am however aware of some <a href="https://www.hackthebox.com/blog/ai-vs-human-ctf-hack-the-box-results">impressive results</a> during CTFs, so maybe a "specialized" GPT could be more attuned to this use case?</p>
+<p>However, the more serious implication in my eyes would be if that "seamlessly integrated" tool was actually on a penetration tester's / red teamer's attack machine. Not without reason are NDAs often a big part of the agreements with security vendors. A penetration tester will with some likelihood have access to current and active security weaknesses in a client's infrastructure, employee and customer data (potentially protected bei GDPR, HIPAA, PCI DSS etc.), and an in depth knowledge of how the company's systems are interconnected.
+A nice breakdown on pre-engagement activities and the pentesting process as a whole can be found in <a href="https://academy.hackthebox.com/course/preview/penetration-testing-process">this Tier 0 Hack The Box module</a> by the way.</p>
+<p>It seems ludicrous to imagine that this sensitive data should be intertwined in any shape or form with a data hungry GPT and its data sets.</p>
+<p>Lastly, there is also the danger of, well, dangerous payloads. The inherent risk for Script Kiddies aside that use code that they do not understand from open-source repositories (and are hence also target of more sophisticated cybercriminals, <a href="https://news.sophos.com/en-us/2025/06/04/the-strange-tale-of-ischhfd83-when-cybercriminals-eat-their-own/">poisoning malware creation tools with backdoors</a>, but more on that in some later post perhaps), a security professional would have to be very diligent in checking whatever payload GPT generates.
+The article assures us that the developers emphasize the importance of human oversight due to "<em>occasionally generate[d] false positives or [...] unoptimized scripts</em>". The CIA-triad being upheld during an engagement, not leaving the client with data leaks, loss, or unavailability of mission critical systems, seems much more pressing than an unoptimized script, though.</p>
+<p>I am not yet convinced that ChatGPT in any of the current varieties is truly democratizing any industry just yet, as it is so often advertised. It seems more like a shortcut for people that do not want to spend the time and brainpower on researching and understanding a topic. Many technical communities are experiencing the influx of beginners that have followed some AI advice they didn't fully understand, and have subsequently rendered their system damaged beyond repair, looking for a quick fix to get out of it again.</p>
+<p>In the foreseeable future, humans will still need to do the critical thinking.</p>
 <p>~epsilon</p>
 
 
@@ -556,7 +560,7 @@ The SANS Institute (InfoSec and Cybersecurity training and certificates) has a w
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 19, 2025 20:57:07">May 19, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="June 8, 2025 21:48:19">June 8, 2025</span>
   </span>
 
     
@@ -590,7 +594,7 @@ The SANS Institute (InfoSec and Cybersecurity training and certificates) has a w
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../05/mvps/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MVPs">
+          <a href="../../../05/19/infosec-cheat-sheets-from-sans/" class="md-footer__link md-footer__link--prev" aria-label="Previous: InfoSec Cheat Sheets from SANS">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -600,27 +604,11 @@ The SANS Institute (InfoSec and Cybersecurity training and certificates) has a w
                 Previous
               </span>
               <div class="md-ellipsis">
-                MVPs
+                InfoSec Cheat Sheets from SANS
               </div>
             </div>
           </a>
         
-        
-          
-          <a href="../../../06/08/kali-gpt---the-new-age-of-penetration-testing/" class="md-footer__link md-footer__link--next" aria-label="Next: Kali GPT - The new age of penetration testing?">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Kali GPT - The new age of penetration testing?
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
         
       </nav>
     
